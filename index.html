@@ -88,18 +88,16 @@
                     document.getElementById('ErrorCpf').innerHTML = ""
                 }
             }
-           
 
-            if(confereCampo('cnpf') == true) {
-                document.getElementById('ErrorCnpj').innerHTML = "Digite um CNPJ"
-            }else {
-                if(verificaCnpj('cnpj') == true) {
-                    document.getElementById('ErrorCnpj').innerHTML = "Digite um CNPJ válido"
-                } else {
-                    document.getElementById('ErrorCnpj').innerHTML = ""
-                }
-            }
-             
+            // if(confereCampo('cnpf') == true) {
+            //     document.getElementById('ErrorCnpj').innerHTML = "Digite um CNPJ"
+            // }else {
+            //     if(verificaCnpj('cnpj') == true) {
+            //         document.getElementById('ErrorCnpj').innerHTML = "Digite um CNPJ válido"
+            //     } else {
+            //         document.getElementById('ErrorCnpj').innerHTML = ""
+            //     }
+            // }
             if(confereCampo('email') == true){
                 document.getElementById('ErrorEmail').innerHTML = "Digite um e-mail"
             } else{
@@ -113,6 +111,7 @@
         }
         function confereCampo(id) {
             if (id != 'telefoneTipos') {
+                alert(id)
                 let campo = document.getElementById(id).value;
                 if (campo == '') {
                     return true
