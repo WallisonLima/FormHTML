@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -12,6 +16,7 @@
     width: 500px;
     padding: 10px;
 }
+
 .box {
     width: 500px;
     height: 640px;
@@ -21,7 +26,7 @@
     align-items: center;
 }
 
-.inputsForm{
+.inputsForm {
     padding: 5px 0px 5px 5px;
     font-size: 16px;
     padding: 5px 0px 5px 5px;
@@ -35,6 +40,18 @@
     outline: none;
 }
 
-body {
-    margin: 0px;
-}
+#join-btn {
+    border: 1px solid #6C7A89;
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    padding: 3px 50px;
+    cursor: pointer;
+    transition: .4s;
+  }
+
+  #join-btn:hover {
+    background: #6C7A89;
+    padding: 10px 80px;
+  }
+
