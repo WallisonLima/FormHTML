@@ -1,5 +1,5 @@
 function validar() {
-   /* if (confereCampo('nome') == true) {
+    if (confereCampo('nome') == true) {
         document.getElementById('ErrorNome').innerHTML = "Digite um nome";
     } else {
         if (verificaTamNome('nome') == true) {
@@ -48,10 +48,8 @@ function validar() {
         }
     }
     confereCampo('telefoneTipos')
-*/
     confereCnpj('cnpj')
 }
-
 function confereCnpj(id){
     let campo = document.getElementById(id).value
     campo = campo.replace(/[^a-zA-Z0-9]/g, '')
@@ -92,8 +90,7 @@ function confereCnpj(id){
             return document.getElementById('ErrorCnpj').innerHTML = "Digite um CNPJ válido."
         }
         return document.getElementById('ErrorCnpj').innerHTML = ""
-    }
-    
+    } 
 }
 
 function confereCampo(id) {
@@ -205,7 +202,6 @@ function verificaCpf(id) {
     }
     return false;
 }
-
 function verificaEmail(id) {
     let campo = document.getElementById(id).value;
     if (campo.length > 60) {
@@ -216,8 +212,3 @@ function verificaEmail(id) {
     }
     return true;
 }
-
-
-// function verificaCnpj(id) {
-//     let campo = document.getElementById(id).value;
-// }
