@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headr">
+           <!--<h2>Exercicio Para Entregar</h2>
+            <i class="icon ion-ios-ionic-outline" aria-hidden="true"></i>
+            <p>Fatec 2º Semestre</p>!-->
+            <h2>Sign Up</h2>
+        </div>
+        <div class="box">
+            <form>
+                Nome <br><input type="text" name="nome" id="nome" placeholder="Wallison Lima" class="inputsForm">
+                <span id="ErrorNome"></span>
+                <br><br>
+                CEP <br><input type="text" name="cep" id="cep" placeholder="00.000-000" class="inputsForm">
+                <span id="ErrorCep"></span>
+                <br><br>
+                Data Nascimento <br><input type="text" name="nasc" id="nasc" placeholder="dd/mm/aaaa" class="inputsForm">
+                <span id="ErrorNasc"></span>
+                <br><br>
+                CPF <br><input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" class="inputsForm">
+                <span id="ErrorCpf"></span>
+                <br><br>
+                CNPJ <br><input type="text" name="cnpj" id="cnpj" placeholder="00.000.000/0000-00" class="inputsForm">
+                <span id="ErrorCpf"></span>
+                <br><br>
+                Email <br><input type="text" name="email" id="email" placeholder="nome@example.com" class="inputsForm">
+                <span id="ErrorEmail"></span>
+                <br><br>
+                Tipo <br><select id="telefoneTipos" class="inputsForm">
+                    <option value="telefone">Telefone</option>
+                    <option value="celular">Celular</option>
+                    <option value="nenhum">Nenhum</option>
+                </select>
+                <br><br>
+                Telefone <br><input type="text" name="telefone" id="telefone" placeholder="(11)4444-5555" class="inputsForm">
+                <span id="ErrorTelefone"></span>
+                <br><br>
+                Celular <br><input type="text" name="celular" id="celular" placeholder="(11)94444-5555" class="inputsForm">
+                <span id="ErrorCelular"></span>
+                <br><br>
+                <input type="button" onclick="validar()" value="Validar">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="functions.js"></script>
+</body>
+
+</html>

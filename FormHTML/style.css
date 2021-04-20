@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.headr {
+    width: 500px;
+    padding: 10px;
+}
+.box {
+    width: 500px;
+    height: 640px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.inputsForm{
+    padding: 5px 0px 5px 5px;
+    font-size: 16px;
+    padding: 5px 0px 5px 5px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+}
+
+body {
+    margin: 0px;
+}
