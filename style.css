@@ -11,9 +11,12 @@ body {
     align-items: center;
 }
 
+.Image{
+    margin-left: 20%;
+}
 
 .container2 {
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
     background: #6C7A89;
     display: flex;
@@ -27,15 +30,16 @@ body {
 }
 
 .box {
-    width: 500px;
-    height: 720px;
+    width: 600px;
+    height: 760px;
     background: #fff;
     padding: 10px;
     border-radius: 5px;
 }
 
 .data{
-    margin-bottom: 18px;    
+    margin-bottom: 18px;   
+    margin-left: 15px; 
 }
 
 .dataContainer{
@@ -45,7 +49,7 @@ body {
 .dataTitle{
     font-size: 20px;
     font-weight: 550;
-    color: black;
+    color: #333333;
 }
 
 .dataSpan{
@@ -55,37 +59,39 @@ body {
 }
 
 .dataInput{
-   margin-top: 2px;
+   margin-top: 4px;
 }
 
 .inputsForm {
-    padding: 5px 0px 5px 5px;
+    height: 35px;
+    padding: 0 30px;
     font-size: 16px;
-    padding: 5px 0px 5px 5px;
     width: 250px;
-    border: 1px solid rgb(10, 180, 180);
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: none;
     background: #E9EBEC;
     color: black;
     outline: none;
-    border-radius: 4px;
+    border-radius: 25px;
+}
+
+.buttonJoin{
+    margin-left: 15px;
 }
 
 #join-btn {
-    border: 1px solid #6C7A89;
-    background: rgba(20, 20, 20, .6);
+    border: none;
+    height: 35px;
+    background: #57b846;
     font-size: 18px;
     color: white;
     padding: 3px 50px;
     cursor: pointer;
     transition: .4s;
-    border-radius: 4px;
+    border-radius: 25px;
   }
 
   #join-btn:hover {
     background: #6C7A89;
-    padding: 10px 80px;
+    padding: 0px 130px;
   }
 
