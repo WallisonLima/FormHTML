@@ -33,4 +33,4 @@ Se tudo correr bem, abra o navegador de preferência e digite na url [localhost:
 
 Logo verá nossa aplicação rodando. Caso tenha alguma opinião em relação a melhora do processo ou implementação de algo (que com certeza haverá rsrs), deixe sua sugestão sem medo, será muito bem-vinda. Afinal sou somente um aprendiz e quero progredir com quem sabe. 
 
-#### Obrigado!
+#### Obrigado!!
