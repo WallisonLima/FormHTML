@@ -29,7 +29,7 @@ Feito e instalação das ferramentas utilizadas nesse projeto, siga os passo aba
 
 8. Feito o download corretamente de tudo, rode no mesmo terminal aberto na pasta do projeto o seguinte comando: `node server.js`
 
-Se tudo correr bem, abra o navegador de preferência e digite na url [localhost:3000](localhost:3000)
+Se tudo correr bem, abra o navegador de preferência e digite na url [localhost:3000](http://localhost:3000)
 
 Logo verá nossa aplicação rodando. Caso tenha alguma opinião em relação a melhora do processo ou implementação de algo (que com certeza haverá rsrs), deixe sua sugestão sem medo, será muito bem-vinda. Afinal sou somente um aprendiz e quero progredir com quem sabe. 
 
